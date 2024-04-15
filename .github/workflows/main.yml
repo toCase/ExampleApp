@@ -45,7 +45,7 @@ jobs:
         if: ${{ matrix.container }} # Run only in the container
         run: |
           apt-get update
-          apt-get install -y python3-tk gettext tcl-thread tk tk-dev tcl libxcb-xinerama0
+          apt-get install -y python3-tk gettext tcl-thread tk tk-dev tcl libxcb-xinerama0 libgl1-mesa-dev
 
       - name: Install Pyinstaller Dependencies
         run: |
