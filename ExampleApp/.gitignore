@@ -1,0 +1,5 @@
+
+.qtcreator/
+account_info.db
+__pycache__/
+ExampleApp.pyproject.user

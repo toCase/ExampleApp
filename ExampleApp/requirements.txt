@@ -1,0 +1,3 @@
+PySide6
+pybit>=5.5.0
+python-binance>=1.0.17

@@ -1,0 +1,13 @@
+{
+    "files": [
+        "main.py",
+        "qml/main.qml",
+        "qml/App.qml",
+        "qml/Account.qml",
+        "Database.py",
+        "ModelAccount.py",
+        "Thread.py",
+        "img/trash.png",
+        "qml/AccountAdd.qml"
+    ]
+}
