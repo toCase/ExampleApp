@@ -57,7 +57,7 @@ jobs:
 
       - name: Build Executable
         run: |
-          pyinstaller -w --onefile
+          pyinstaller app.spec
 
       - name: Set Execution Permissions (Linux)
         if: runner.os == 'Linux'
